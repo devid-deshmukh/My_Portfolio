@@ -1,0 +1,40 @@
+.skills-section {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: #0f172a;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 20px 0;
+  color: aqua;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.loop-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* This stops the page from shaking or scrolling sideways */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.skills-section {
+  width: 100%;
+  overflow: hidden; /* This clips the logos as they leave the screen */
+  position: relative;
+}
