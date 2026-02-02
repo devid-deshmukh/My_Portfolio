@@ -1,0 +1,34 @@
+
+/* The main container for the top of the page */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers the pill-shaped menu */
+  align-items: center;
+  padding: 20px;
+  position: sticky; /* Keeps it visible while scrolling */
+  top: 0;
+  background: #0f172a; /* Dark background from your video */
+  z-index: 100;
+}
+
+/* The "Pill" container for the links */
+.nav-links {
+  display: flex;
+  gap: 60px; /* Space between links - easier to manage than huge padding */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border instead of solid black */
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.03); /* Slight glass effect */
+}
+
+/* Individual Link styling */
+.nav-links a {
+  text-decoration: none;
+  color: #00d2ff; /* Using that Cyan color from your video */
+  font-weight: 500;
+  transition: 0.3s; /* Smooth color change on hover */
+}
+
+.nav-links a:hover {
+  color: #ffffff; /* Turns white when hovered */
+}

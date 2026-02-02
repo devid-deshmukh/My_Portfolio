@@ -1,0 +1,47 @@
+.hero-container{
+
+  display:flex;
+  flex-direction: column;
+   justify-content: center;
+  align-items:center;
+  margin-top: 80px;
+
+  color:aqua;
+
+}
+.wrapper{
+  display:flex;
+  height:70vh;
+  justify-content:center;
+  align-items:center;
+  background-color: #0f172a;
+  padding:0 10%;
+  gap:20px;
+
+
+
+}
+.hero-title {
+  font-size: 80px;      /* Large, clear size */
+  font-weight: bold;    /* Makes it stand out */
+  margin: 0;            /* Removes accidental gaps */
+}
+.hero-subtitle{
+  font-size:24px;
+  font-weight: 100;
+  margin-top:0;
+  letter-spacing: 1px;
+
+}
+.hero-image{
+  width:400px;
+  height:400px;
+  border-radius: 50%;
+  padding:10px;
+  margin-left: 4px;
+
+  /* object-fit: cover;      /* Keeps the face in proportion */
+  /* object-position: center; */
+
+
+}
